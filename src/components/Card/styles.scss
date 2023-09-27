@@ -1,0 +1,33 @@
+@import "../../theme.scss";
+
+.cardContainer {
+  display: flex;
+  width: 100%;
+  background-color: $color-background-default;
+  border: $border-default;
+  overflow-y: scroll;
+
+  padding: 16px 18px;
+  min-height: 340px;
+  max-height: 340px;
+  border-radius: 5px;
+}
+
+.cardLogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.cardTextContentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,49 @@
+@import "../../theme.scss";
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("../../fonts/JosefinSans-Regular.ttf");
+}
+
+* {
+  font-family: "Josefin Sans";
+}
+
+.h1 {
+  @media (min-width: $breakpoints_sm) {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  @media (min-width: $breakpoints_md) {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  @media (min-width: $breakpoints_lg) {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+}
+
+.p {
+    @media (min-width: $breakpoints_sm) {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+    
+      @media (min-width: $breakpoints_md) {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+    
+      @media (min-width: $breakpoints_lg) {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+}
